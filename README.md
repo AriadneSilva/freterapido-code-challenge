@@ -57,11 +57,21 @@ git clone https://github.com/AriadneSilva/freterapido-code-challenge
 
 Abra o prompt de comando, e navegue até o local onde o repositório foi clonado
 
-Execute o comando: npm install. Para realizar a atualização e toda a instalação das bibliotecas necessárias para a execução
+Execute o comando: 
+```
+$ npm install
+```
+ Para realizar a atualização e toda a instalação das bibliotecas necessárias para a execução
 
 Finalizado a execução do comando acima, execute o comando: npm start
 
+```
+$ npm start
+```
+
 Após a execução do comando, automaticamente abrirá uma página do navegador no endereço: http://localhost:4200/ com a aplicação em execução
+
+Para finalizar a execução da aplicação, digite CTRL+C no prompt de comando, e escolha a opção S para finalizar o arquivo em lotes.
 
 
 ## Como rodar os testes
