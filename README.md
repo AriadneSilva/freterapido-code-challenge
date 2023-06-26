@@ -70,7 +70,6 @@ Após a execução do comando, automaticamente abrirá uma página do navegador 
 $ ng test
 ```
 
-
 ## Linguagens, dependencias e libs utilizadas :books:
 
 - [Angular](https://angular.io/quick-start)
