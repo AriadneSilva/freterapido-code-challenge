@@ -1,20 +1,3 @@
-# Currency Converter
-
-Este projeto foi criado para mostrar a conversão em tempo real das moedas: Dólar Canadense, Peso Argentino e Libra Esterlina em real.
-Exibindo ainda a variação da moeda, e o horário da última atualização.
-
-# Procedimentos para execução do projeto
-
--> Faça um clone do respositório : https://github.com/AriadneSilva/freterapido-code-challenge para máquina local.
-
--> Abra o prompt de comando, e navegue até o local onde o repositório foi clonado
-
--> Execute o comando: npm install. Para realizar a atualização e toda a instalação das bibliotecas necessárias para a execução
-
--> Finalizado a execução do comando acima, execute o comando: ng-serve --open
-
--> Após a execução do comando, automaticamente abrirá uma página do 
-
 <h1>Currency Converter</h1> 
 
 <p align="center">
