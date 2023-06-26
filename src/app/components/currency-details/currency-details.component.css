@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.grid-cards {
+  margin: 10% auto;
+  display: grid;
+  gap: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: 430px;
+  height: 428px;
+  top: 326px;
+  left: 220px;
+}
+
+.card-header {
+  display: grid;
+  background: #F6F6F6;
+  width: 431px;
+  height: 119px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  align-items: center;
+  text-align: center;
+  color: #717171;
+
+}
+
+.card-container {
+  display: grid;
+  background-color: #FFFFFF;
+  height: 200px;
+  top: 166px;
+  left: 92px;
+
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 96px;
+  letter-spacing: 0em;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.text-green {
+  color: #3C7649;
+}
+
+.text-red {
+  color: #DD4B4B;
+}
+
+.text-blue {
+  color: #3684CB;
+}
+
+.text-error {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #717171;
+}
+
+.button-reload {
+  width: 173px;
+  height: 58px;
+  top: 593px;
+  left: 873px;
+  background-color: #F4F4F4;
+  border: 0px;
+  margin: 0 auto;
+}
+
+.card-footer {
+  background-color: #FFFFFF;
+  width: 430.1px;
+  height: 111.52px;
+  top: 318.48px;
+  left: -0.01px;
+  /* border-radius: 0px 0px 10px 10px; */
+  border-top: 0.5px solid #CCCCCC;
+
+}
+
+.column-footer {
+  background-color: #FFFFFF;
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+
+  color: #919191;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-left: 0.5px solid #CCCCCC;
+}
+
+.row-footer {
+  background-color: #FFFFFF;
+  color: #717171;
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.row-footer:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img {
+  background-color: transparent;
+  width: 40%;
+  display: block;
+  margin: 15% auto;
+}

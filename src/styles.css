@@ -1,6 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Poppins';
-    background-color: #EEEEEE;
+  font-family: 'Poppins';
+  background-color: #EEEEEE;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 35% !important;
   }
 
+  .grid-cards {
+    margin: 30% 10% !important;
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img {
+    width: 45% !important;
+  }
+
+  .grid-cards {
+    margin: 30% 10% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img {
+    width: 30% !important;
+  }
+
+  .grid-cards {
+    margin: 30% auto !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img {
+    width: 20% !important;
+  }
+
+  .grid-cards {
+    margin: 10% auto !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img {
+    width: 20% !important;
+  }
+
+  .grid-cards {
+    margin: 10% auto !important;
+  }
+}

@@ -1,0 +1,48 @@
+<div class="grid-cards">
+  <div class="card" *ngFor="let currency of currencyDataSet; index as i">
+    <div class="card-header">
+      {{currency.name.split("/")[0]}}
+    </div>
+    <ng-container *ngIf="currency.isUpdate then loadingContent ;else content">
+    </ng-container>
+
+    <ng-template #loadingContent>
+      <div class="card-container">
+        <img class="img" [src]=logo />
+      </div>
+    </ng-template>
+
+    <ng-template #content>
+      <ng-container *ngIf="currency.isError then errorContent ;else cardContent">
+      </ng-container>
+      <ng-template #cardContent>
+        <div class="card-container"
+          [ngClass]="(currency.bid) <= 1  ? 'text-red' : (currency.bid >  1 && currency.bid <= 5  ? 'text-green' : 'text-blue')">
+          R${{currency.bid}} </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="column-footer">
+              Variação(%)
+              <div class="row-footer"> {{currency.pctChange}}</div>
+            </div>
+
+            <div class="column-footer">
+              Atualizado
+              <div class="row-footer">{{currency.updateDate}}</div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </ng-template>
+    <ng-template #errorContent>
+      <div class="card-container text-error">
+        Algo deu errado!
+        <button type="button" class="card-container text-error button-reload" title="Reload Data"
+          (click)="reloadDataError(i)">Recarregar</button>
+      </div>
+
+    </ng-template>
+
+  </div>
+
+</div>
