@@ -80,3 +80,4 @@ export class CurrencyDetailsComponent implements OnInit {
     localStorage.removeItem('arrayCurrencyData');
   }, 180000);
 }
+
