@@ -24,7 +24,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Este projeto foi criado para mostrar a conversão em tempo real das moedas: Dólar Canadense, Peso Argentino e Libra Esterlina em real.
+Este projeto foi criado para mostrar a conversão em tempo real das moedas: Dólar Canadense, Peso Argentino e Libra Esterlina em Real Brasileiro.
 Exibindo ainda a variação da moeda, e o horário da última atualização.
 </p>
 
@@ -55,23 +55,20 @@ No terminal, clone o projeto:
 git clone https://github.com/AriadneSilva/freterapido-code-challenge
 ```
 
--> Abra o prompt de comando, e navegue até o local onde o repositório foi clonado
+Abra o prompt de comando, e navegue até o local onde o repositório foi clonado
 
--> Execute o comando: npm install. Para realizar a atualização e toda a instalação das bibliotecas necessárias para a execução
+Execute o comando: npm install. Para realizar a atualização e toda a instalação das bibliotecas necessárias para a execução
 
--> Finalizado a execução do comando acima, execute o comando: ng-serve --open
+Finalizado a execução do comando acima, execute o comando: npm start
 
--> Após a execução do comando, automaticamente abrirá uma página do navegador no endereço: http://localhost:4200/ com a aplicação em execução
+Após a execução do comando, automaticamente abrirá uma página do navegador no endereço: http://localhost:4200/ com a aplicação em execução
 
 
 ## Como rodar os testes
 
-Coloque um passo a passo para executar os testes
-
 ```
 $ ng test
 ```
-
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
@@ -79,9 +76,3 @@ $ ng test
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [TypeSricpt](https://www.typescriptlang.org/)
-
-
-## Desenvolvedores/Contribuintes :octocat:
-
- [<img src="https://avatars.githubusercontent.com/u/46300015?v=4" width=115><br><sub>Ariadne Silva</sub>](https://github.com/AriadneSilva) 
-
