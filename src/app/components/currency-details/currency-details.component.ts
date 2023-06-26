@@ -42,9 +42,7 @@ export class CurrencyDetailsComponent implements OnInit {
   public realoadDataSet = async (): Promise<void> => {
     for (let index = 0; index < this.currencyDataSet.length; index++) {
       if (!this.currencyDataSet[index].isError) {
-        index === 1
-          ? (this.currencyDataSet[index].isError = true)
-          : this.updateDataCurrency(index);
+        this.updateDataCurrency(index);
       }
     }
   };
@@ -80,7 +78,6 @@ export class CurrencyDetailsComponent implements OnInit {
   timerId = setInterval(() => {
     this.realoadDataSet();
     localStorage.removeItem('arrayCurrencyData');
-  }, 30000);
+  }, 180000);
 }
 
-//180000

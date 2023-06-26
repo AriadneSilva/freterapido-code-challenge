@@ -69,7 +69,7 @@ git clone https://github.com/AriadneSilva/freterapido-code-challenge
 Coloque um passo a passo para executar os testes
 
 ```
-$ npm test, rspec, etc 
+$ ng test
 ```
 
 
@@ -83,12 +83,5 @@ $ npm test, rspec, etc
 
 ## Desenvolvedores/Contribuintes :octocat:
 
-Liste o time responsável pelo desenvolvimento do projeto
+ [<img src="https://avatars.githubusercontent.com/u/46300015?v=4" width=115><br><sub>Ariadne Silva</sub>](https://github.com/AriadneSilva) 
 
-| [<img src="https://avatars.githubusercontent.com/u/46300015?v=4" width=115><br><sub>Ariadne Silva</sub>](https://github.com/AriadneSilva) |  
-
-## Licença 
-
-The [MIT License]() (MIT)
-
-Copyright :copyright: 2023 - Currency Converter
